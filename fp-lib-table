@@ -3,4 +3,5 @@
   (lib (name "OPL")(type "KiCad")(uri "/Users/bagdoingstuff/Downloads/OPL_Kicad_Library-master/Seeed Studio XIAO Series Library")(options "")(descr ""))
   (lib (name "PRAND")(type "KiCad")(uri "/Users/bagdoingstuff/Downloads/random-keyboard-parts.pretty-master")(options "")(descr ""))
   (lib (name "MXAH")(type "KiCad")(uri "/Users/bagdoingstuff/Downloads/MX_Alps_Hybrid-master/")(options "")(descr ""))
+  (lib (name "ATMEGA")(type "KiCad")(uri "/Users/bagdoingstuff/Downloads/ATMEGA32U4-AU")(options "")(descr ""))
 )
