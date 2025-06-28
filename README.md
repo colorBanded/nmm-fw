@@ -1,5 +1,4 @@
 # Not My Macro!
----
 A custom macropad designed as a submission for the **2025 Summer of Code** by GitHub.
 Based on the [AOI3 PCB tutorial](https://wiki.ai03.com/) with modifications for practical use.
 
@@ -9,7 +8,7 @@ Based on the [AOI3 PCB tutorial](https://wiki.ai03.com/) with modifications for 
 
 ## Features
 ---
-* 16 Programmable Keys
+* 15 Programmable Keys
 * XIAO RP2040 Microcontroller
 * Highly Customizable
 * Easy Dissassembly
@@ -19,7 +18,7 @@ Based on the [AOI3 PCB tutorial](https://wiki.ai03.com/) with modifications for 
 ###### For some reason Fusion 360 was bugging out while rendering the colors so enjoy the light mode experience
 
 I engineered the top so that it slots in without any screws, making it easily detachable, I made sure that theres a tight tolerance so that it doesn't fall apart when you pick it up.
-There are 16 Keys that you can customize in the firmware.
+There are 15 Keys that you can customize in the firmware.
 
 ![Betterboardenclosure_2025-Jun-28_05-17-13AM-000_CustomizedView39211341282](https://github.com/user-attachments/assets/659057f5-1761-4c7f-b1e1-013fb174015c)
 Fusion 360 Renderer thingy, everything stacks (Couldn't find a proper stl for the switches and springs but those go under the top case)
@@ -43,13 +42,13 @@ A key changing tool like AutoHotKey is recommended, if you would like to change 
 
 # BOM
 Everything you need to create this:
-16 Cherry MX Switches
-16 DSA Keycaps
+15 Cherry MX Switches
+15 DSA Keycaps
 1 XIAO RP2040-DIP
 2 SK6812MINI LEDS
 1 Soldering Iron
 1 Case (Either 3D Printed or Laser Cut, the later giving better results)
-16 Generic Diodes (Model SMD D_SOD-123)
+15 Generic Diodes (Model SMD D_SOD-123)
 About 2:30 assembly time
 
 
