@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../Downloads/Production/",
+      "plot": "../../Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../Downloads/bigMacro.stl",

@@ -1405,12 +1405,6 @@
 		)
 	)
 	(junction
-		(at 196.85 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06ce70f2-80d5-4358-bfb8-80481ba1388b")
-	)
-	(junction
 		(at 156.21 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1439,6 +1433,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d06ea9c-33cd-4b80-bb2b-2fe06e9029e9")
+	)
+	(junction
+		(at 90.17 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3166a961-9991-4a57-ab2c-71cec1b1dc4b")
 	)
 	(junction
 		(at 201.93 36.83)
@@ -1475,6 +1475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ece3e60-f3f9-4f6f-9803-f662424576e8")
+	)
+	(junction
+		(at 90.17 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d866b49-ffde-40fd-87e6-354c11939899")
 	)
 	(junction
 		(at 181.61 57.15)
@@ -1531,12 +1537,6 @@
 		(uuid "e67a380f-cfe3-4774-852f-54b8a7eb45f9")
 	)
 	(junction
-		(at 222.25 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7280d6a-0387-48a0-9558-fb69659e6cac")
-	)
-	(junction
 		(at 196.85 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1580,16 +1580,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 81.28) (xy 222.25 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15bd0aa1-10c2-460f-8918-8999cba49bd9")
-	)
-	(wire
-		(pts
 			(xy 201.93 19.05) (xy 201.93 36.83)
 		)
 		(stroke
@@ -1607,16 +1597,6 @@
 			(type default)
 		)
 		(uuid "28fcad9c-df77-48af-a94c-05235b53bc67")
-	)
-	(wire
-		(pts
-			(xy 196.85 114.3) (xy 217.17 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "294151d1-bd6c-48b9-afaf-193a8444f74f")
 	)
 	(wire
 		(pts
@@ -2865,6 +2845,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 90.17 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b65537-0da9-4af3-8310-b692afd288f6")
+		(property "Reference" "#PWR01"
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b03e710-5265-4162-8c8c-9a4614d3427f")
+		)
+		(instances
+			(project ""
+				(path "/aa2fd127-b07e-4a6e-9424-3a1b2570c2fd"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f1e4346-8922-443f-a440-aaf98e3b9605")
+		(property "Reference" "#PWR02"
+			(at 90.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30a71fa4-71e1-49f0-8970-77853b495995")
+		)
+		(instances
+			(project ""
+				(path "/aa2fd127-b07e-4a6e-9424-3a1b2570c2fd"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MXAH:MX-NoLED")
 		(at 157.48 38.1 0)
 		(unit 1)
@@ -3315,74 +3427,6 @@
 			(project "bigMacro"
 				(path "/aa2fd127-b07e-4a6e-9424-3a1b2570c2fd"
 					(reference "MX6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MXAH:MX-NoLED")
-		(at 218.44 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a67b6d2-27d4-4a79-88b6-108ddce4f77c")
-		(property "Reference" "MX16"
-			(at 219.3352 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MX-NoLED"
-			(at 219.3352 101.6 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 202.565 106.045 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 202.565 106.045 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9488b2a-f5d8-42ea-9ec4-f4d25b672b4a")
-		)
-		(pin "1"
-			(uuid "85b0ec19-ce04-4bc7-98ac-6d77ff8fb40e")
-		)
-		(instances
-			(project "bigMacro"
-				(path "/aa2fd127-b07e-4a6e-9424-3a1b2570c2fd"
-					(reference "MX16")
 					(unit 1)
 				)
 			)
@@ -4742,94 +4786,6 @@
 			(project "bigMacro"
 				(path "/aa2fd127-b07e-4a6e-9424-3a1b2570c2fd"
 					(reference "MX12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 217.17 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef7661fa-bfc0-41f8-9bec-bb10fe261b66")
-		(property "Reference" "D18"
-			(at 219.71 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 219.71 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 217.17 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7518d64b-afc1-4857-80f5-94d27dae1f7e")
-		)
-		(pin "2"
-			(uuid "ca955e16-815b-4dd4-95ca-77a787091c25")
-		)
-		(instances
-			(project "bigMacro"
-				(path "/aa2fd127-b07e-4a6e-9424-3a1b2570c2fd"
-					(reference "D18")
 					(unit 1)
 				)
 			)
