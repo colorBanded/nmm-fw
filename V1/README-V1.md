@@ -1,19 +1,9 @@
 # Not My Macro!
-
+###### This version doesn't meet the requisites for the 2025 Github Highway Hackathon Project and has been replaced by the version in this projects parent folder.
 A custom macropad designed as a submission for the **2025 Summer of Code** by GitHub.
 Based on the [AOI3 PCB tutorial](https://wiki.ai03.com/) with modifications for practical use.
 
 
-
-
-
-
-
-
-
-
-# Not My Macro! - Version 1
-###### This version doesn't meet the requisites for the 2025 Github Highway Hackathon Project.
 <table style="width:100%">
   <tr>
     <td><img src="https://github.com/user-attachments/assets/70d60e1e-084c-4ec8-b9ac-4191732f06f3" style="width:100%"/></td>
