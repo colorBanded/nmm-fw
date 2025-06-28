@@ -6,9 +6,9 @@ created_at: "2025-6-26"
 ---
 
 Time Spent:
-Roughly 12H
+Roughly 11H
 
-6 Hours Spent learning the software:
+First 5 Hours 37 Minutes:
 [https://www.youtube.com/live/sv9vbLQUTec](Livestream Recording)
 
 3 Hours Creating the Enclosure
@@ -21,3 +21,7 @@ To get started with this I spent some time learning the software as well as the 
 FUSION TIME WOOOOO
 I was really used to blender for 3D modeling as well as how it handles the viewport, Fusion 360 is kinda the opposite of how it handles things (Specifically viewport controls and how it handles verticies, edges, and faces)
 It was a bit of a pain at first but eventually I got used to it. Something I found difficult while modeling was trying to get the measurements right (Roughly an hour and 30 minutes of the second half of the livestream shows that) I was able to overcome that hurdle as well and overall everything's coming together pretty well!
+Time Spent Today: 4 Hours 52 Minutes
+-# Time estimated using macOS Clock.app
+
+Total Time: 10 Hours 29 Minutes
