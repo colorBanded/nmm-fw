@@ -3,18 +3,15 @@ A custom macropad designed as a submission for the **2025 Summer of Code** by Gi
 Based on the [AOI3 PCB tutorial](https://wiki.ai03.com/) with modifications for practical use.
 
 # IMPORTANT
----
 ###### After reviewing the submission guidelines I removed a key to comply with the less than 16 inputs.
 
 ## Features
----
 * 15 Programmable Keys
 * XIAO RP2040 Microcontroller
 * Highly Customizable
 * Easy Dissassembly
 
 # Cad Model:
----
 ###### For some reason Fusion 360 was bugging out while rendering the colors so enjoy the light mode experience
 
 I engineered the top so that it slots in without any screws, making it easily detachable, I made sure that theres a tight tolerance so that it doesn't fall apart when you pick it up.
@@ -27,14 +24,14 @@ Default view, only two outer pieces, cool!
 
 
 # PCB
----
+
 I used KiCad to create the PCB assembly, used their built-in image converter to add the graphic.
 ![Screenshot 2025-06-27 at 10 31 48 PM](https://github.com/user-attachments/assets/49ee7122-0a49-4b9d-8af4-1413a1ea68eb)
 ![Screenshot 2025-06-27 at 10 32 16 PM](https://github.com/user-attachments/assets/f5b29e2e-012a-4501-97b5-9b2b3c055543)
 
 
 # Firmware & Layout
----
+
 I utilized the QMK firmware to handle key inputs. Use the USB C port to flash the .bin file to change layout (Better editor coming soon™)
 A key changing tool like AutoHotKey is recommended, if you would like to change the keybinds yourself you can use [QMK Configurator](https://config.qmk.fm/#/atset/at16/LAYOUT_ortho_4x4)
 ![Screenshot 2025-06-27 at 10 39 20 PM](https://github.com/user-attachments/assets/e8579adf-f722-47c8-b4d8-879e88e43fb9)
@@ -61,10 +58,8 @@ About 2:30 assembly time
 * **PCB Design & Layout**: [KiCAD](https://www.kicad.org/)
 * **3D Modeling**: [Fusion 360](https://www.autodesk.com/products/fusion-360/overview)
 
----
-
 ## References
 
 * [AI03 Wiki](https://wiki.ai03.com/) – General information and guides on PCB design
 * [Hack Club PCB Starter Guide](https://hackpad.hackclub.com/) – A beginner-friendly tutorial which this project is based on
----
+
