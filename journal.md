@@ -28,4 +28,4 @@ I was really used to Blender for 3D modeling as well as how it handles the viewp
 It was a bit of a pain at first, but eventually I got used to it. Something I found difficult while modeling was trying to get the measurements right. (Roughly an hour and 30 minutes of the second half of the livestream shows that.) I was able to overcome that hurdle as well, and overall everything is coming together well.
 
 ![Screenshot 2025-06-27 at 6 59 53 PM](https://github.com/user-attachments/assets/00c0c062-3c64-423e-8368-51af49dda195)  
-![Screenshot 2025-06-27 at 7 00 20 PM](https://github.com/user-attachments/assets/9d7e9aa6-1c9d-4d9a-ba2a-5f573f1d65d6)
+![Screenshot 2025-06-27 at 7 07 37 PM](https://github.com/user-attachments/assets/34b46d37-db43-4ab8-907c-ab1d3016f10c)
