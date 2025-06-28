@@ -2,10 +2,18 @@
 
 A custom macropad designed as a submission for the **2025 Summer of Code** by GitHub.
 Based on the [AOI3 PCB tutorial](https://wiki.ai03.com/) with modifications for practical use.
+<table style="width:100%">
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/70d60e1e-084c-4ec8-b9ac-4191732f06f3" style="width:100%"/></td>
+    <td><img src="https://github.com/user-attachments/assets/33e1658c-5cd4-4ae0-9914-e20aa1212a2c" style="width:100%"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/58d568cb-d1a2-4755-858f-12239f4b8423" style="width:100%"/></td>
+    <td><img src="https://github.com/user-attachments/assets/15b70c0e-1709-4629-8d7e-7778ad0cc873" style="width:100%"/></td>
+  </tr>
+</table>
 
-![Macropad Top View](https://github.com/user-attachments/assets/563530f6-1673-4648-94d3-f304002b0efb)
-![Macropad Side View](https://github.com/user-attachments/assets/33e1658c-5cd4-4ae0-9914-e20aa1212a2c)
-![Macropad with Cupholder](https://github.com/user-attachments/assets/58d568cb-d1a2-4755-858f-12239f4b8423)
+
 
 ---
 
