@@ -38,15 +38,17 @@ A key changing tool like AutoHotKey is recommended, if you would like to change 
 ###### This is the current key layout (DDR Reference), F13 through F24 are configured so that it doesn't interfere with any users' existing setup.
 
 # BOM
-Everything you need to create this:
-15 Cherry MX Switches
-15 DSA Keycaps
-1 XIAO RP2040-DIP
-2 SK6812MINI LEDS
-1 Soldering Iron
-1 Case (Either 3D Printed or Laser Cut, the later giving better results)
-15 Generic Diodes (Model SMD D_SOD-123)
-About 2:30 assembly time
+| Item                                      | Quantity / Notes                                  |
+|-------------------------------------------|----------------------------------------------------|
+| Cherry MX Switches                        | 15                                                 |
+| DSA Keycaps                               | 15                                                 |
+| XIAO RP2040-DIP                           | 1                                                  |
+| SK6812MINI LEDs                           | 2                                                  |
+| Soldering Iron                            | 1                                                  |
+| Case                                      | 1 (3D Printed or Laser Cut – laser cut preferred) |
+| Generic Diodes (SMD D_SOD-123)            | 15                                                 |
+| Assembly Time                             | Approx. 2 hours 30 minutes                         |
+
 
 
 
