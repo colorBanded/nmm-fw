@@ -6200,7 +6200,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "38b84888-119a-4b29-a057-0576a9f33f7d")
-		(at 135.651948 91.152804 180)
+		(at 106.3625 101.6 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -7199,7 +7199,7 @@
 		)
 	)
 	(gr_text "crappy wiring (c)\npart of this complete breakfast"
-		(at 141.2875 100.0125 0)
+		(at 111.91875 94.45625 0)
 		(layer "B.SilkS")
 		(uuid "85ba86f7-4b49-41ed-ba9d-95366f14b288")
 		(effects
