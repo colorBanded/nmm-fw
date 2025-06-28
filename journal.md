@@ -5,7 +5,7 @@ description: "A Macro Pad with the creation goal being to teach myself how to us
 created_at: "2025-6-26"
 ---
 
-**Total Time Spent: 10 Hours 29 Minutes**  
+**Total Time Spent: 13 Hours 58 Minutes**  
 Time estimated using the macOS Stopwatch & OBS Livestream Counter
 
 ---
@@ -29,3 +29,10 @@ It was a bit of a pain at first, but eventually I got used to it. Something I fo
 
 ![Screenshot 2025-06-27 at 6 59 53 PM](https://github.com/user-attachments/assets/00c0c062-3c64-423e-8368-51af49dda195)  
 ![Screenshot 2025-06-27 at 7 07 37 PM](https://github.com/user-attachments/assets/34b46d37-db43-4ab8-907c-ab1d3016f10c)
+
+# 6/27 (again)
+**Time Spent: 3 Hours 20 Minutes**
+
+Had to redo the whole project since the original blueprint for the file used a different microcontroller (An ATMEGA one which isn't a drop in replacement sadly since the pinout is wildly different.) So Ive spent the past couple of hours redoing both the CAD and PCB files. Took way less time this time since I already knew which dimensions to take down and what tolerances I should use.
+![Screenshot 2025-06-27 at 11 20 17 PM](https://github.com/user-attachments/assets/0abdf349-6957-4cf4-a663-5783d9c80d8c)
+Oddly enough when switching back to the RP2040-DIP the layout for everything became way less convoluted which was great, I'm starting to get how most of this works and how the row/column system works which was a big hurdle for bigger things.
